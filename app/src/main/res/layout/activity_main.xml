@@ -28,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/txtInputNom"
+            android:id="@+id/editNom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Nom de commerçant" />
@@ -45,27 +45,31 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="160dp"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:text="OUVRIR"
+        app:icon="@drawable/baseline_door_sliding_24"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="160dp"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:text="CHARGEMENT"
+        app:icon="@drawable/baseline_sync_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+
         tools:layout_editor_absoluteY="584dp" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="160dp"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:text="TÉLÉVERSER"
+        app:icon="@drawable/baseline_cloud_upload_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
